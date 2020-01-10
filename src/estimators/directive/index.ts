@@ -23,7 +23,10 @@ export default function (options?: {}): ComplexityEstimator {
       },
       multipliers: {
         type: new GraphQLList(new GraphQLNonNull(GraphQLString))
-      }
+      },
+      initialMultipler: {
+        type: GraphQLInt,
+      },
     },
   });
 
@@ -42,6 +45,11 @@ export default function (options?: {}): ComplexityEstimator {
 
     // Get multipliers
     let totalMultiplier = 1;
+
+    if (values.initialMultipler) {
+      totalMultiplier = values.initialMultipler;
+    }
+
     if (values.multipliers) {
       totalMultiplier = values.multipliers.reduce((aggregated: number, multiplier: string) => {
         const multiplierValue = get(args.args, multiplier);
