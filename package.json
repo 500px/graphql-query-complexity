@@ -1,5 +1,5 @@
 {
-  "name": "graphql-query-complexity",
+  "name": "@500px/graphql-query-complexity",
   "version": "0.4.1",
   "description": "Validation rule for GraphQL query complexity analysis",
   "main": "dist/index.js",
@@ -27,7 +27,7 @@
     "README.md",
     "LICENSE"
   ],
-  "repository": "slicknode/graphql-query-complexity",
+  "repository": "500px/graphql-query-complexity",
   "keywords": [
     "graphql",
     "query",
