@@ -1,6 +1,6 @@
 # GraphQL Query Complexity Analysis for graphql-js
 
-[![npm version](https://badge.fury.io/js/graphql-query-complexity.svg)](https://badge.fury.io/js/graphql-query-complexity)
+[![npm version](https://badge.fury.io/js/%40500px%2Fgraphql-query-complexity.svg)](https://badge.fury.io/js/%40500px%2Fgraphql-query-complexity)
 [![CircleCI](https://circleci.com/gh/500px/graphql-query-complexity.svg?style=shield)](https://circleci.com/gh/500px/graphql-query-complexity)
 
 
